@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="demo.css">
+    
+    <title>Geocoding Demo</title>
+</head>
+<body>
+    <div style="height: 80vh; width: 60vw;" id="mapContainer" class="container-1">
+      <input placeholder="Search for a Place or an Address." type="text" name="search" id="search"   value="" autocomplete="off" onkeyup="autosuggest(this)" autofocus />
+      <i class="fa fa-search fa-search-custom" aria-hidden="true"></i>
+      <div class="dropdown">
+        <ul id="list"></ul>
+      </div> 
+    </div>
+    <script src="demo.js"></script>
+
+</body>
+
+
+</html>
